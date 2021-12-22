@@ -2,8 +2,6 @@ package myProject;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * This class is used for ...
@@ -57,11 +55,7 @@ public class GUI extends JFrame {
     /**
      * inner class that extends an Adapter Class or implements Listeners used by GUI class
      */
-    private class Escucha implements ActionListener {
+    private class Escucha {
 
-        @Override
-        public void actionPerformed(ActionEvent e) {
-
-        }
     }
 }
